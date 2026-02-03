@@ -9,7 +9,7 @@
 
 ## 📖 About the Project
 
-**(start_span)NuSuri** is an AI-powered cough screening and triage tool designed to detect Tuberculosis (TB) risks in community health facilities(end_span). Developed by **Team Hirayón**, it bridges the gap between hardware and software by combining IoT-enabled audio capture with on-device machine learning predictions.
+**NuSuri** is an AI-powered cough screening and triage tool designed to detect Tuberculosis (TB) risks in community health facilities(end_span). Developed by **Team Hirayón**, it bridges the gap between hardware and software by combining IoT-enabled audio capture with on-device machine learning predictions.
 
 Our goal is to provide a low-cost, accessible screening method that delivers risk results ("Low", "Review", "High") in under 60 seconds.
 
@@ -28,19 +28,19 @@ This repository serves as a technical overview of the NuSuri project. **The sour
 Even though the code is hidden, here is how we built it:
 
 ### 📱 Mobile Application (React Native / Expo)
-* **(start_span)Audio Engineering:** Implemented strict timing workflows and dynamic sample rate switching to ensure high-fidelity recordings for AI analysis(end_span).
-* **(start_span)IoT Integration:** Built a custom Bluetooth Low Energy (BLE) module to interface with external recording hardware(end_span).
-* **(start_span)UI/UX:** Designed a patient-facing symptom questionnaire that feeds data directly into the risk prediction model(end_span).
+* **Audio Engineering:** Implemented strict timing workflows and dynamic sample rate switching to ensure high-fidelity recordings for AI analysis.
+* **IoT Integration:** Built a custom Bluetooth Low Energy (BLE) module to interface with external recording hardware.
+* **UI/UX:** Designed a patient-facing symptom questionnaire that feeds data directly into the risk prediction model.
 
 ### 🧠 AI & Backend Integration
-* **(start_span)On-Device Inference:** Deployed Logistic Regression models directly to the mobile app for offline risk assessment(end_span).
-* **(start_span)Data Pipeline:** Engineered a pipeline that coordinates data transfer, preprocessing, and feature alignment between the mobile app and the AI server(end_span).
+* **On-Device Inference:** Deployed Logistic Regression models directly to the mobile app for offline risk assessment.
+* **Data Pipeline:** Engineered a pipeline that coordinates data transfer, preprocessing, and feature alignment between the mobile app and the AI server.
 
 ## 🏆 Awards & Recognition
 
-* **(start_span)National 2nd Runner-Up:** DICT Philippine Startup Challenge X(end_span)
+* **National 2nd Runner-Up:** DICT Philippine Startup Challenge X
 * **Regional Champion:** DICT Region 4A (Calabarzon)
-* **(start_span)Huawei Innovation Track:** 3rd Place Winner(end_span)
+* **Huawei Innovation Track:** 3rd Place Winner
 
 ## 👥 Team Hirayón
 
